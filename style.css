@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5vw;
+  color: white;
+  border: solid black 3px;
+  border-radius: 8px;
+  background-color: black;
+  padding: 1vh 4vh;
+}
+
+button {
+  font-size: 1.5vw;
+  border: solid black 3px;
+  border-radius: 8px;
+  padding: 1% 5%;
+  background-color: transparent;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 800px) {
+  h1,
+  button {
+    font-size: 1rem;
+  }
+}
